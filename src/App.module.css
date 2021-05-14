@@ -1,0 +1,57 @@
+form div{
+  text-align: center;
+}
+form{
+  padding: 0px;
+  margin-top: 0px;
+}
+.Input{
+  width: 100%;
+  border:2px solid rosybrown;
+  border-radius: 5px;
+  font-size:larger;
+}
+.Button{
+  font-size:large;
+  border:none;
+  border-radius: 5%;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.Button:hover{
+  cursor: pointer;
+}
+.App{
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  height: 100%;
+}
+.Recipe{
+  display: flex;
+  margin-top: 1%;
+  flex-wrap: wrap; 
+  min-height: 100vh;
+  justify-content: left;
+}
+.item{
+  margin: 1% auto;
+  padding: 1%;
+  border: 1px solid seagreen;
+  border-radius: 5%;
+  width: 25%;
+  height: 400px;
+  overflow-y: scroll;
+  background-color: seashell;
+
+}
+@media(max-width:450px){
+  .Recipe{
+    display: list-item;
+  }
+  .item{
+    width: 100%;
+    height: fit-content;
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+}

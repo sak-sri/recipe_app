@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0px;
+    width: fit-content;
+    margin-left: 0px;
+    height: fit-content;
+}
+
+.header{
+    color: black;
+    background: none;
+    border: none;
+    width: fit-content;
+    text-decoration: none;
+    font-size: 150%;
+    margin: auto;
+    background-color: cornsilk;
+    border-radius: 10%;
+    height: fit-content;
+}
+
+.container ul li{
+    font-size: 150%;
+    width: 100%;
+}
+.container ul li:hover{
+    cursor: pointer;
+    background-color:#C2CAD0 ;
+    width: 100%;
+}
+body{
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+.header:hover{
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}
