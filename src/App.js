@@ -53,7 +53,7 @@ function App(){
     q:query,
     health:healthParameters
    })
-   let response=await axios.post('https://recipe---app.herokuapp.com/get',data,{headers:{"Content-Type" : "application/json"}}
+   let response=await axios.post('/get',data,{headers:{"Content-Type" : "application/json"}}
     )
    let hits=await response.data.hits;
    if(typeof hits==='undefined'){
