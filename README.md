@@ -1,0 +1,1 @@
+A React JS web app for finding recipes.User has to input the name of the dish and can also apply filters based on different health labels.Recipes based on input are returned.
